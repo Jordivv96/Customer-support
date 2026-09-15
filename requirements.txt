@@ -1,0 +1,9 @@
+fastapi==0.99.0
+uvicorn==0.22.0
+torch>=2.0.0
+transformers>=4.40.0
+sentence-transformers>=2.2.2
+faiss-cpu; platform_system != 'Darwin' or sys_platform != 'darwin'
+numpy
+python-dotenv
+rich
